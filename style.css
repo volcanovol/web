@@ -1,0 +1,81 @@
+body{
+    background-color: gray;
+}
+
+.he{
+    background-color: black;
+    color: gray;
+    width: 850px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 3cm;
+    transition: opacity 0.8s;
+    transition: color 0.8s;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 22px;
+}
+.he:hover{
+    color: white;
+    opacity: 0.8;
+}
+.he:active{
+    opacity: 0.3;
+}
+.b{
+    background-color: black;
+    color: gray;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: opacity 0.8s;
+    transition: color 0.8s;
+    transition: box-shadow 0.5s;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 20px;
+}
+.b:hover{
+opacity: 0.8;
+color: white;
+box-shadow: 5px 5px 10px rgb(207, 204, 204);
+}
+.hg{
+width: 10px;
+height: 10px;
+}
+.ins{
+    color: black;
+    transition: color 0.9s;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.ins:hover{
+    opacity: 0.9;
+    color: white;
+    margin-right: 20px;
+}
+.yt{
+    color: black;
+    transition: color 0.9s;
+    margin-right: 20px;
+
+}
+.yt:hover{
+    color: white;
+}
+.ab{
+    margin-left: 20px;
+    margin-right: 30px;
+    color: black;
+    transition: color 0.9s;
+}
+.ab:hover{
+    color: white;
+}
+footer{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
